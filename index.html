@@ -12,7 +12,7 @@
     <!-- Tailwind CSS via CDN (no install needed) -->
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="flex min-h-screen items-start justify-center bg-gray-600 pt-16">
+  <body class="flex min-h-screen items-start justify-center bg-red-300 pt-16">
 
   <!-- Inner <div>: this is the "card" box that holds all the content -->
   <div class="max-w-sm rounded-2xl bg-white p-6 text-center shadow-xl">
@@ -28,11 +28,11 @@
 
     <!-- <h1>: Heading tag (used for titles). 
          Larger headings have lower numbers: <h1> is biggest, <h6> is smallest. -->
-    <h1 class="text-2xl font-bold text-red-600">Sanjana Matturaaaaaaaa</h1>
+    <h1 class="text-2xl font-bold text-red-600">Sanjana Mattur</h1>
     
     <!-- <p>: Paragraph tags hold blocks of text. -->
-    <p class="mt-2 text-gray-600">Student, Hoffmann Estates High School.</p>
-    <p class="mt-1 text-sm text-gray-500">"Living my life."</p>
+    <p class="mt-2 text-gray-600">Student, Hoffman Estates High School.</p>
+    <p class="mt-1 text-sm font-semibold text-red-500">"Doing it my own way."</p>
 
     <!-- <a>: Anchor tag = link. 
          "href" tells it where to go when clicked.
@@ -40,11 +40,23 @@
     <a 
       href="https://github.com/YOUR-USERNAME-HERE" 
       target="_blank"
-      class="mt-4 inline-block rounded-lg bg-red-500 px-4 py-2 text-white transition hover:bg-blue-600"
+      class="mt-4 inline-block rounded-lg bg-red-700 px-4 py-2 text-white transition hover:bg-blue-600"
     >
       Visit My GitHub
     </a>
-
+<!-- 📊 Data Storytelling Project Card -->
+<section class="mt-8 rounded-2xl bg-white/90 p-5 shadow-md ring-1 ring-gray-200 max-w-xl mx-auto">
+  <h3 class="text-lg font-semibold text-gray-900">📊 Data Storytelling — Animals</h3>
+  <p class="text-sm text-gray-600 mt-2">
+    I learned so much about Arctic Foxes and Giant Pandas using Data Analysis! Did you know Arctic Foxes can go up to 60 km/h? I also learned important information like conservation status for animals like Giant Pandas, whom are sadly endangered.
+  </p>
+  <div class="mt-4 flex gap-3">
+    <a href="https://colab.research.google.com/github/The-Pritzker-Tech-Talent-Labs/DC_Fall-Week-2-Data-Analysis/blob/main/animal_endangered_lesson.ipynb"
+       target="_blank"
+       class="rounded-lg bg-red-700 px-20 py-2 text-white hover:bg-red-300 transition">
+      🔗 Open Notebook
+    </a>
+  </div>
   </div> <!-- closes card div -->
   </body>
 </html>
